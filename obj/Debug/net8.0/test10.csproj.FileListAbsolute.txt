@@ -1,0 +1,14 @@
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.AssemblyInfoInputs.cache
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.AssemblyInfo.cs
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.csproj.CoreCompileInputs.cache
+D:\Programming\C#_Projects\test\test10\bin\Debug\net8.0\test10.exe
+D:\Programming\C#_Projects\test\test10\bin\Debug\net8.0\test10.deps.json
+D:\Programming\C#_Projects\test\test10\bin\Debug\net8.0\test10.runtimeconfig.json
+D:\Programming\C#_Projects\test\test10\bin\Debug\net8.0\test10.dll
+D:\Programming\C#_Projects\test\test10\bin\Debug\net8.0\test10.pdb
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.dll
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\refint\test10.dll
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.pdb
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.genruntimeconfig.cache
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\ref\test10.dll
