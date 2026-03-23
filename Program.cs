@@ -3,30 +3,32 @@ using System.Linq;
 using System.Collections.Generic;
 
 namespace Linq_GropuBy_Practise {
-    public record Product(string Name, string Category, int Price);
+    public static class IEnumerableExtension {
+        public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> source) {
+            List<T> list = new List<T>(source);
+
+            Random rand = new Random();
+
+            for (int i = list.Count - 1; i > 0; i--) {
+                int j = rand.Next(i + 1);
+                T temp = list[j];
+                list[j] = list[i];
+                list[i] = temp;
+            }
+
+            return list;
+        }
+    }
 
     class Program {
         public static void Main(string[] args) {
-            var numbers = new List<int> { 12, 5, 8, 21, 44, 7, 3, 10, 15, 20 };
+            List<int> ourList = new List<int>() {1, 3, 15, 4, 56, 3};
 
-            var groups = numbers.GroupBy(n => n % 2 == 0 ? "Even" : "Odd");
+            List<int> result = ourList.Shuffle() as List<int>;
 
-            foreach (var group in groups) {
-                Console.WriteLine($"Catefory: {group.Key}: {group.Max()}");
+            foreach (var item in result) {
+                Console.WriteLine(item);
             }
-
-            /*
-            foreach (var group in groups)
-            {
-                Console.Write($"{group.Key}: ");
-
-                foreach (var item in group) {
-                    Console.Write($"{item}; ");
-                }
-
-                Console.WriteLine();
-            }
-            */
         }
     }
 }

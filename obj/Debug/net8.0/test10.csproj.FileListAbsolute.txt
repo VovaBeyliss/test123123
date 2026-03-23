@@ -12,3 +12,4 @@ D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\refint\test10.dll
 D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.pdb
 D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.genruntimeconfig.cache
 D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\ref\test10.dll
+D:\Programming\C#_Projects\test\test10\obj\Debug\net8.0\test10.sourcelink.json
